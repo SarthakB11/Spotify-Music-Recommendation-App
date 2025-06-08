@@ -4,6 +4,7 @@ import pickle
 import streamlit as st
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+import os
 
 # Spotify API credentials
 CLIENT_ID = os.environ.get("CLIENT_ID")
