@@ -50,8 +50,8 @@ def recommend(song):
 st.header('Spotify Music Recommender System')
 
 # Load data and similarity matrix from pickle files
-music = pickle.load(open('./imp.pkl','rb'))
-similarity = pickle.load(open('./similarity.pkl','rb'))
+music = pickle.load(open('src/imp.pkl','rb'))
+similarity = pickle.load(open('src/similarity.pkl','rb'))
 
 # Create a dropdown to select a song
 music_list = music['song'].values
