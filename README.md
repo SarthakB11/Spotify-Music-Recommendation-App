@@ -2,6 +2,8 @@
 
 A content-based music recommendation system that suggests similar songs based on your music preferences. Built with Python, Streamlit, and the Spotify Web API.
 
+Deployed at https://spotify-music-recommendation.streamlit.app/
+
 ![Demo](demo.png)
 
 ## ✨ Features
