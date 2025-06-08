@@ -1,4 +1,8 @@
 spotipy
 streamlit
+ipykernel
+pandas
+nltk
+scikit-learn
 #pip install pipreqs
 #pipreqs
